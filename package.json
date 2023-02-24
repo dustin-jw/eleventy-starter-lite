@@ -9,8 +9,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "eleventy --serve --incremental",
-    "build": "eleventy",
+    "start": "rm -rf dist && eleventy --serve --incremental",
+    "build": "rm -rf dist && eleventy",
     "lint": "echo \"TODO: add support for linting\" && exit 0",
     "test": "echo \"TODO: add support for testing\" && exit 0",
     "update-deps": "echo \"TODO: add support for updating dependencies\" && exit 0"
