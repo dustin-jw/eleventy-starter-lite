@@ -1,0 +1,21 @@
+{
+  "name": "eleventy-starter-lite",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "echo \"TODO: add start script\" && exit 0",
+    "build": "echo \"TODO: add build script\" && exit 0",
+    "lint": "echo \"TODO: add support for linting\" && exit 0",
+    "test": "echo \"TODO: add support for testing\" && exit 0",
+    "update-deps": "echo \"TODO: add support for updating dependencies\" && exit 0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}

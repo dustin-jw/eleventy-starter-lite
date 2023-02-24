@@ -47,6 +47,9 @@ npm run build
 # lint your code for possible issues
 npm run lint
 
+# run unit tests
+npm run test
+
 # update dependencies to their latest versions
 npm run update-deps
 ```
