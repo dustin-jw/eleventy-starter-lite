@@ -8,4 +8,5 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
   },
+  ignorePatterns: ['dist', 'node_modules'],
 };
