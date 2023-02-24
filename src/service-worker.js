@@ -1,3 +1,5 @@
+/* global VERSION */
+
 const CACHE_KEYS = {
   PRE_CACHE: `precache-${VERSION}`,
   RUNTIME: `runtime-${VERSION}`,
