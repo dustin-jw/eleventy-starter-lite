@@ -9,7 +9,11 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo \"TODO: add start script\" && exit 0",
+    "build": "echo \"TODO: add build script\" && exit 0",
+    "lint": "echo \"TODO: add support for linting\" && exit 0",
+    "test": "echo \"TODO: add support for testing\" && exit 0",
+    "update-deps": "echo \"TODO: add support for updating dependencies\" && exit 0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
