@@ -8,6 +8,7 @@
   "engines": {
     "node": ">=20"
   },
+  "type": "module",
   "scripts": {
     "start": "rm -rf dist && eleventy --serve --incremental",
     "build": "rm -rf dist && eleventy",
