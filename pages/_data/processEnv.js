@@ -1,6 +1,6 @@
-/* eslint-env node */
-require('dotenv').config();
+import { config } from 'dotenv';
+config();
 
-module.exports = {
-  BASE_URL: process.env.BASE_URL,
+export default {
+	BASE_URL: process.env.BASE_URL,
 };

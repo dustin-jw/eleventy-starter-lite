@@ -1,13 +1,13 @@
-module.exports = function (eleventyConfig) {
+export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/public': '/' });
   eleventyConfig.addLayoutAlias('default', 'layout.njk');
+};
 
-  return {
-    dir: {
-      input: 'pages',
-      output: 'dist',
-      includes: '../src',
-    },
-    markdownTemplateEngine: 'njk',
-  };
+export const config = {
+  dir: {
+    input: 'pages',
+    output: 'dist',
+    includes: '../src',
+  },
+  markdownTemplateEngine: 'njk',
 };
