@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   },
   "type": "module",
   "scripts": {
@@ -18,12 +18,12 @@
     "test": "echo \"TODO: add support for testing\" && exit 0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@eslint/js": "^9.11.1",
-    "dotenv": "^16.4.5",
-    "eslint": "^9.11.1",
-    "globals": "^15.10.0",
-    "stylelint": "^16.9.0",
-    "stylelint-config-standard": "^36.0.1"
+    "@11ty/eleventy": "^3.1.6",
+    "@eslint/js": "^10.0.1",
+    "dotenv": "^18.0.4",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "stylelint": "^17.15.0",
+    "stylelint-config-standard": "^40.0.0"
   }
 }
